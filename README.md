@@ -29,10 +29,11 @@ This is a React app for managing projects and tasks, built as part of a code cha
 ```
 
 3. Create a .env file in the server folder with the following content:
-    ```bash
-    PORT=5000
+```bash
+PORT=5000
 FIREBASE_SERVICE_ACCOUNT_KEY=./serviceAccountKey.json
-   ``
+```
+    
 4. Start the server:
     ```bash
     node index.js
