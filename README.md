@@ -35,9 +35,9 @@ FIREBASE_SERVICE_ACCOUNT_KEY=./serviceAccountKey.json
 ```
     
 4. Start the server:
-    ```bash
-    node index.js
-    ```
+```bash
+node index.js
+```
 
 ### Frontend
 1. Navigate to the client folder:
