@@ -22,16 +22,17 @@ This is a React app for managing projects and tasks, built as part of a code cha
 1. Navigate to the `server` folder:
    ```bash
    cd server
-```
+   ```
 2. Install dependencies:
  ```bash
     npm install
 ```
+
 3. Create a .env file in the server folder with the following content:
     ```bash
     PORT=5000
 FIREBASE_SERVICE_ACCOUNT_KEY=./serviceAccountKey.json
-```
+   ``
 4. Start the server:
     ```bash
     node index.js
@@ -59,25 +60,20 @@ FIREBASE_SERVICE_ACCOUNT_KEY=./serviceAccountKey.json
 
 ## Projects
 
-- GET /api/projects: Fetch all projects.
+- **GET /api/projects:** Fetch all projects.
 
-- POST /api/projects: Create a new project.
+- **POST /api/projects:** Create a new project.
 
-- PUT /api/projects/:id : Update an existing project.
+- **PUT /api/projects/:id :** Update an existing project.
 
-- DELETE /api/projects/:id : Delete a project.
+- **DELETE /api/projects/:id :** Delete a project.
 
 ## Tasks
 
-- GET /api/tasks/:projectId : Fetch all tasks for a specific project.
+- **GET /api/tasks/:projectId :** Fetch all tasks for a specific project.
 
-- POST /api/tasks/:projectId : Create a new task for a specific project.
+- **POST /api/tasks/:projectId :** Create a new task for a specific project.
 
-- PUT /api/tasks/:id : Update an existing task.
+- **PUT /api/tasks/:id :** Update an existing task.
 
-- DELETE /api/tasks/:id : Delete a task.
-
-
-
-
-
+- **DELETE /api/tasks/:id :** Delete a task.
