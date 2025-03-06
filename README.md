@@ -19,6 +19,8 @@ This is a React app for managing projects and tasks, built as part of a code cha
 ## Setup
 
 ### Backend
+- you can use an automated script **run.sh** to start and **kill.sh** to Stop,
+## OR
 1. Navigate to the `server` folder:
    ```bash
    cd server
